@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<title>Голосование</title>
+	<link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+	
+</head>
+    <body>
+    <div class="container">
+        <h1 class="header">Давайте проголосуем!</h1>
+        <br>
+        <h2 class="header_2">Вам нравятся: <span class="dog">СОБАКИ</span>, <span class="cat">КОШКИ</span> или <span class="parrot">ПОПУГАИ?</span> </h2>
+        <br>
+        <section class="vote_btn">
+            <div class="butn">
+                <button id="dogs" type="button" class="btn btn-outline-primary">За собаку!</button> 
+                <button id="cats" type="button" class="btn btn-outline-danger">За кошку!</button>
+                <button id="parrots" type="button" class="btn btn-outline-success">За попугая!</button>
+            </div>
+        </section>
+        <br>
+        <div class="butn_res">
+            <button onclick="document.location='index_result.html'" type="button" class="btn btn-outline-dark btn-lg">Просмотреть результаты голосования</button>
+        </div>
+    </div>
+
+<script src="./js/script_vote.js"></script>
+</body>
+</html>

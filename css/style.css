@@ -1,0 +1,43 @@
+.container {
+	margin-top:300px;
+	padding: 40px 10px 10px 10px;
+	background: #D1E6EE;
+	width: 50%;
+	border-radius: 10px;
+	box-shadow: 5px 8px 7px 3px #C4C8CD; 
+}
+
+.header {
+	text-align: center;
+	color: #FC0404;
+}
+
+.header_2 {
+	text-align: center;
+}
+
+.dog {
+	color: #4223DE;
+}
+
+.cat {
+	color: #E32A48;
+}
+
+.parrot {
+	color: #1EB063;
+}
+
+.btn {
+	margin-right: 2%;
+}
+
+.butn {
+	display: flex;
+	justify-content: center;
+}
+
+.butn_res {
+	display: flex;
+	justify-content: center;
+}
